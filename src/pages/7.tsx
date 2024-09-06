@@ -67,7 +67,6 @@ export default function Fifth_SP() {
       }
     });
   
-    // Show new toast
     toast(<div dangerouslySetInnerHTML={{ __html: boldedMessage }} />, {
       position: "bottom-right",
       autoClose: 5000,
